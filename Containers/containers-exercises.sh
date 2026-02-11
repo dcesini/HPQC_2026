@@ -73,8 +73,8 @@ docker ps -a
 
 docker login -u <your_username>
 docker images
-docker tag 5c2538cecdc2 dcesini/hpqc_2025:ubuntu_with_ping_1.0
-docker push dcesini/hpqc_2025:ubuntu_with_ping_1.0
+docker tag 5c2538cecdc2 dcesini/hpqc_2026:ubuntu_with_ping_1.0
+docker push dcesini/hpqc_2026:ubuntu_with_ping_1.0
 
 ############################################
 ### Bulding docker images using Dockerfiles
