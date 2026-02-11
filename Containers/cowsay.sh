@@ -44,6 +44,6 @@ docker run  ubuntu_with_fortune4
 
 singularity pull docker://dcesini/hpqc_2026:ubuntu_with_fortune_5.0
 ls *.sif
-singularity run hpqc_2025_ubuntu_with_fortune_5.0.sif
+singularity run hpqc_2026_ubuntu_with_fortune_5.0.sif
 
 
