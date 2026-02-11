@@ -11,10 +11,10 @@ fortune | cowsay | lolcat
 
 docker ps -a
 docker commit ef048ccf6bd0  ubuntu_with_fortune
-docker tag ubuntu_with_fortune dcesini/hpqc_2025:ubuntu_with_fortune_1.0
-docker push dcesini/hpqc_2025:ubuntu_with_fortune_1.0
+docker tag ubuntu_with_fortune dcesini/hpqc_2026:ubuntu_with_fortune_1.0
+docker push dcesini/hpqc_2026:ubuntu_with_fortune_1.0
 
-docker run  -e PATH=/usr/games/:${PATH} -e LC_ALL=C  dcesini/hpqc_2025:ubuntu_with_fortune_1.0 /bin/bash -c 'fortune | cowsay | lolcat'
+docker run  -e PATH=/usr/games/:${PATH} -e LC_ALL=C  dcesini/hpqc_2026:ubuntu_with_fortune_1.0 /bin/bash -c 'fortune | cowsay | lolcat'
 
 #### Alternatively you can use a Dockerfile
 
@@ -42,7 +42,7 @@ docker run  ubuntu_with_fortune4
 
 # LOGIN TO LEONARDO
 
-singularity pull docker://dcesini/hpqc_2025:ubuntu_with_fortune_5.0
+singularity pull docker://dcesini/hpqc_2026:ubuntu_with_fortune_5.0
 ls *.sif
 singularity run hpqc_2025_ubuntu_with_fortune_5.0.sif
 
