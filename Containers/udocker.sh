@@ -6,10 +6,10 @@ udocker install
 #############################
 
 ######### PULL A DOCKERHUB IMAGE ##########
-udocker pull dcesini/hpqc_2025:ubuntu_with_fortune_5.0
+udocker pull dcesini/hpqc_2026:ubuntu_with_fortune_5.0
 udocker images
 #######################
 
 ######## RUN THE CONTAINER from that image ###############
 
-udocker run dcesini/hpqc_2025:ubuntu_with_fortune_5.0
+udocker run dcesini/hpqc_2026:ubuntu_with_fortune_5.0
